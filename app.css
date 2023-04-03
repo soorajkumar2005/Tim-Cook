@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#bg-image {
+  width: 100%;
+}
+#bg-image>img {
+  width: 100%;
+  margin-top: -200px;
+}
+#form-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -150px;
+}
+form {
+  border: 1px solid lightgray;
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+#form-1 {
+  width: 30%;
+}
+#form-2 {
+  width: 50%;
+}
+#form-2 > span {
+  padding: 10px;
+}
+#profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  margin: 10px auto;
+}
+#profile-pic >img {
+  background-size: contain;
+  width: 100%;
+}
+
+.field-container {
+  display: flex;
+  justify-content: space-between;
+}
+.field-container > div {
+  padding: 10px;
+}
+
+input[type="text"] {
+  padding: 5px;
+}
+input[type="button"] {
+  color: gray;
+  background-color: white;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid lightgray;
+  width: 80%;
+  
+  margin: 20px;
+}
+#linked-button {
+  color: blue;
+}
+h3,
+p {
+  text-align: center;
+  padding: 5px;
+}
+p{
+    color: gray;
+}
+button{
+  padding: 10px 20px;
+  margin: 20px;
+  color: white;
+  background-color: #2865e2;
+  border-radius: 5px;
+  border: none;
+}
+#personal-info > div {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+span{
+    font-weight:bold;
+    color: gray;
+}
+span:hover{
+    color: black;
+    text-decoration: underline;
+    transition: .5s;
+    cursor: pointer;
+}
+input{
+    padding: 20px;
+}
+hr{
+    margin-top: 5px;
+}
